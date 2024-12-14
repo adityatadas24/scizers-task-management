@@ -6,7 +6,7 @@ import TaskList from "./components/TaskList";
 import { Task } from "./types/Task";
 import { getTasks, addTask, updateTask, deleteTask } from "./api/api";
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 
 const App: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
