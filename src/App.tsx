@@ -55,7 +55,7 @@ const App: React.FC = () => {
       notification.success({ message: "Task updated successfully!" });
     } catch (error) {
       notification.error({
-        message: "Error updating task",
+        message: "Error updating tasks",
         description: (error as Error).message,
       });
     } finally {
